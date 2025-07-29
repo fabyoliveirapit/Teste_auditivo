@@ -45,7 +45,7 @@ newTrial("Participante",
 
 newTrial("Instrucoes",
     newText("<p style='margin-bottom: 20px; text-align:center;'>INSTRUÇÕES</p>").print(),
-    newText("<p style='margin-bottom: 20px; text-align:justify;'>Você irá participar de uma tarefa de escuta de sentenças e leitura de palavras. Primeiro, você ouvirá uma sentença completa. Depois, uma palavra irá aparecer na tela. As palavras que você irá ler podem ou não pertencer ao português. Sua tarefa consiste em ouvir atentamente as frases, ler as palavras que irão aparecer na tela e responder - o mais rápido possível - à pergunta '<strong>É uma palavra do português?</strong>', clicando em <strong>SIM</strong> ou <strong>NÃO</strong>. Ao final do teste, você responderá um pequeno questionário para verificarmos o quanto consegue lembrar das frases escutadas, por isso é importante que preste bastante atenção nas sentenças que irá ouvir.</p>").print(),
+    newText("<p style='margin-bottom: 20px; text-align:justify;'>Você irá participar de uma tarefa de escuta de sentenças e leitura de palavras. Primeiro, você ouvirá uma sentença completa. Depois, uma palavra irá aparecer na tela. As palavras que você irá ler podem ou não pertencer ao português. Sua tarefa consiste em ouvir atentamente as frases, ler as palavras que irão aparecer na tela e responder o mais rápido possível: '<strong>É uma palavra do português?</strong>', clicando em <strong>SIM</strong> ou <strong>NÃO</strong>. Ao final do teste, você responderá um pequeno questionário para verificarmos o quanto consegue lembrar das frases escutadas, por isso é importante que preste bastante atenção nas sentenças que irá ouvir.</p>").print(),
     newButton("Começar Treinamento")
         .center()
         .print()
@@ -64,7 +64,7 @@ newTrial("Treinamento",
     newAudio("audio1", "PEDREIRO1.mp3").play().wait(),
     getImage("altofalante1").remove(),
     newTimer("delayTimer1", 300).start().wait(),
-    newText("CASCALHO").css("font-size", "2em").center().print(),
+    newText("DOFILDA").css("font-size", "2em").center().print(),
     // Removido: newText("pergunta1", "É uma palavra do português?").print(),
 
     newKey("resposta_t1", "VN")
@@ -72,7 +72,7 @@ newTrial("Treinamento",
         .wait()
     ,
     getAudio("audio1").remove(),
-    getText("CASCALHO").remove(),
+    getText("DOFILDA").remove(),
     // Removido: getText("pergunta1").remove(),
 
     // --- Treinamento Trial 2 ---
@@ -83,7 +83,7 @@ newTrial("Treinamento",
     newAudio("audio2", "BAGAGEM1.mp3").play().wait(),
     getImage("altofalante2").remove(),
     newTimer("delayTimer2", 300).start().wait(),
-    newText("COBRADOR").css("font-size", "2em").center().print(),
+    newText("TECLADO").css("font-size", "2em").center().print(),
     // Removido: newText("pergunta2", "É uma palavra do português?").print(),
 
     newKey("resposta_t2", "VN")
@@ -91,7 +91,7 @@ newTrial("Treinamento",
         .wait()
     ,
     getAudio("audio2").remove(),
-    getText("COBRADOR").remove(),
+    getText("TECLADO").remove(),
     // Removido: getText("pergunta2").remove(),
 
     // --- Treinamento Trial 3 ---
@@ -102,7 +102,7 @@ newTrial("Treinamento",
     newAudio("audio3", "PIPOCA1.mp3").play().wait(),
     getImage("altofalante3").remove(),
     newTimer("delayTimer3", 300).start().wait(),
-    newText("FILME").css("font-size", "2em").center().print(),
+    newText("NADOTA").css("font-size", "2em").center().print(),
     // Removido: newText("pergunta3", "É uma palavra do português?").print(),
 
     newKey("resposta_t3", "VN")
@@ -110,7 +110,7 @@ newTrial("Treinamento",
         .wait()
         ,
     getAudio("audio3").remove(),
-    getText("FILME").remove(),
+    getText("NADOTA").remove(),
     
     // --- Treinamento Trial 4 ---
     newImage("altofalante4", "altofalante_exp.png")
