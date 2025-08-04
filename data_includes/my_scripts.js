@@ -175,26 +175,26 @@ newTrial("Questionario",
 
     // Usando newHtml para criar as checkboxes com as novas palavras
     newHtml("lembranca_palavras", `
-        <label><input type="checkbox" name="palavra" value="Veterinário"> Veterinário</label><br>
-        <label><input type="checkbox" name="palavra" value="Enchente"> Enchente</label><br>
-        <label><input type="checkbox" name="palavra" value="Ração"> Ração</label><br>
-        <label><input type="checkbox" name="palavra" value="Farmácia"> Farmácia</label><br>
-        <label><input type="checkbox" name="palavra" value="Fiscal"> Fiscal</label><br>
-        <label><input type="checkbox" name="palavra" value="Bicho"> Bicho</label><br>
-        <label><input type="checkbox" name="palavra" value="Brigadeiro"> Brigadeiro</label><br>
-        <label><input type="checkbox" name="palavra" value="Educação"> Educação</label><br>
-        <label><input type="checkbox" name="palavra" value="Festa"> Festa</label><br>
-        <label><input type="checkbox" name="palavra" value="Bar"> Bar</label><br>
-        <label><input type="checkbox" name="palavra" value="Cafuné"> Cafuné</label><br>
-        <label><input type="checkbox" name="palavra" value="Aniversariante"> Aniversariante</label><br>
-        <label><input type="checkbox" name="palavra" value="Poeira"> Poeira</label><br>
-        <label><input type="checkbox" name="palavra" value="Estacionamento"> Estacionamento</label><br>
-        <label><input type="checkbox" name="palavra" value="Trança"> Trança</label><br>
-        <label><input type="checkbox" name="palavra" value="Banheiro"> Banheiro</label><br>
-        <label><input type="checkbox" name="palavra" value="Velório"> Velório</label><br>
-        <label><input type="checkbox" name="palavra" value="Funcionário"> Funcionário</label><br>
-        <label><input type="checkbox" name="palavra" value="Zoologico"> Zoologico</label><br>
-        <label><input type="checkbox" name="palavra" value="Pneu"> Pneu</label><br>
+        <label><input type="checkbox" name="Veterinário" value="Veterinário"> Veterinário</label><br>
+        <label><input type="checkbox" name="Enchente" value="Enchente"> Enchente</label><br>
+        <label><input type="checkbox" name="Ração" value="Ração"> Ração</label><br>
+        <label><input type="checkbox" name="Farmácia" value="Farmácia"> Farmácia</label><br>
+        <label><input type="checkbox" name="Fiscal" value="Fiscal"> Fiscal</label><br>
+        <label><input type="checkbox" name="Bicho" value="Bicho"> Bicho</label><br>
+        <label><input type="checkbox" name="Brigadeiro" value="Brigadeiro"> Brigadeiro</label><br>
+        <label><input type="checkbox" name="Educação" value="Educação"> Educação</label><br>
+        <label><input type="checkbox" name="Festa" value="Festa"> Festa</label><br>
+        <label><input type="checkbox" name="Bar" value="Bar"> Bar</label><br>
+        <label><input type="checkbox" name="Cafuné" value="Cafuné"> Cafuné</label><br>
+        <label><input type="checkbox" name="Aniversariante" value="Aniversariante"> Aniversariante</label><br>
+        <label><input type="checkbox" name="Poeira" value="Poeira"> Poeira</label><br>
+        <label><input type="checkbox" name="Estacionamento" value="Estacionamento"> Estacionamento</label><br>
+        <label><input type="checkbox" name="Trança" value="Trança"> Trança</label><br>
+        <label><input type="checkbox" name="Banheiro" value="Banheiro"> Banheiro</label><br>
+        <label><input type="checkbox" name="Velório" value="Velório"> Velório</label><br>
+        <label><input type="checkbox" name="Funcionário" value="Funcionário"> Funcionário</label><br>
+        <label><input type="checkbox" name="Zoológico" value="Zoológico"> Zoológico</label><br>
+        <label><input type="checkbox" name="Pneu" value="Pneu"> Pneu</label><br>
     `)
     .css({"text-align": "left", "margin-left": "auto", "margin-right": "auto", "width": "fit-content"}) // Centraliza o bloco de checkboxes
     .print()
