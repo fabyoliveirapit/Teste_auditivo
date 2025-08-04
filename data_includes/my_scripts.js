@@ -157,6 +157,7 @@ Template("tabela_script_auditivo.csv", row =>
             .css("font-size", "2em")
             .center()
             .print()
+            .log()
         ,
         newKey("resposta_exp", "VN")
             .log()
